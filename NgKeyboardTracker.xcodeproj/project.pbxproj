@@ -7,43 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC2EF7501B40E69C0068858F /* NgKeyboardTracker.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DC2EF74F1B40E69C0068858F /* NgKeyboardTracker.h */; };
-		DC2EF7521B40E69C0068858F /* NgKeyboardTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2EF7511B40E69C0068858F /* NgKeyboardTracker.m */; };
+		A6591F701ED860F7002F4859 /* NgKeyboardTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = A6591F6E1ED860F7002F4859 /* NgKeyboardTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6591F731ED860F7002F4859 /* NgKeyboardTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6591F6C1ED860F7002F4859 /* NgKeyboardTracker.framework */; };
+		A6591F741ED860F7002F4859 /* NgKeyboardTracker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A6591F6C1ED860F7002F4859 /* NgKeyboardTracker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A6591F781ED8613C002F4859 /* NgKeyboardTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2EF7511B40E69C0068858F /* NgKeyboardTracker.m */; };
+		A6591F791ED86141002F4859 /* NgPseudoInputAccessoryViewCoordinatorPrivates.h in Headers */ = {isa = PBXBuildFile; fileRef = DCEDECE31B46D9DA00C5CB27 /* NgPseudoInputAccessoryViewCoordinatorPrivates.h */; };
+		A6591F7A1ED86144002F4859 /* NgPseudoInputAccessoryViewCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEDECE11B46D90300C5CB27 /* NgPseudoInputAccessoryViewCoordinator.m */; };
+		A6591F7B1ED86148002F4859 /* NgPseudoInputAccessoryViewCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = DCEDECE01B46D90300C5CB27 /* NgPseudoInputAccessoryViewCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC2EF7701B40E6CF0068858F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2EF76F1B40E6CF0068858F /* main.m */; };
 		DC2EF7731B40E6CF0068858F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2EF7721B40E6CF0068858F /* AppDelegate.m */; };
 		DC2EF7761B40E6CF0068858F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2EF7751B40E6CF0068858F /* ViewController.m */; };
 		DC2EF77B1B40E6CF0068858F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC2EF77A1B40E6CF0068858F /* Images.xcassets */; };
-		DC2EF7941B40EDB80068858F /* libNgKeyboardTracker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC2EF74C1B40E69C0068858F /* libNgKeyboardTracker.a */; };
-		DCEDECE21B46D90300C5CB27 /* NgPseudoInputAccessoryViewCoordinator.m in Sources */ = {isa = PBXBuildFile; fileRef = DCEDECE11B46D90300C5CB27 /* NgPseudoInputAccessoryViewCoordinator.m */; };
 		DCEDECE51B46E52500C5CB27 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCEDECE41B46E52500C5CB27 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DCE2F5581B4977FE0015DF98 /* PBXContainerItemProxy */ = {
+		A6591F711ED860F7002F4859 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DC2EF7441B40E69C0068858F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DC2EF74B1B40E69C0068858F;
+			remoteGlobalIDString = A6591F6B1ED860F7002F4859;
 			remoteInfo = NgKeyboardTracker;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DC2EF74A1B40E69C0068858F /* CopyFiles */ = {
+		A6591F561ED85BE3002F4859 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
+			dstPath = "";
+			dstSubfolderSpec = 10;
 			files = (
-				DC2EF7501B40E69C0068858F /* NgKeyboardTracker.h in CopyFiles */,
+				A6591F741ED860F7002F4859 /* NgKeyboardTracker.framework in Embed Frameworks */,
 			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DC2EF74C1B40E69C0068858F /* libNgKeyboardTracker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNgKeyboardTracker.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC2EF74F1B40E69C0068858F /* NgKeyboardTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NgKeyboardTracker.h; sourceTree = "<group>"; };
+		A6591F6C1ED860F7002F4859 /* NgKeyboardTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NgKeyboardTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6591F6E1ED860F7002F4859 /* NgKeyboardTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NgKeyboardTracker.h; sourceTree = "<group>"; };
+		A6591F6F1ED860F7002F4859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC2EF7511B40E69C0068858F /* NgKeyboardTracker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NgKeyboardTracker.m; sourceTree = "<group>"; };
 		DC2EF76B1B40E6CF0068858F /* NgKeyboardTrackerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NgKeyboardTrackerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC2EF76E1B40E6CF0068858F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,7 +68,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DC2EF7491B40E69C0068858F /* Frameworks */ = {
+		A6591F681ED860F7002F4859 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,19 +79,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC2EF7941B40EDB80068858F /* libNgKeyboardTracker.a in Frameworks */,
+				A6591F731ED860F7002F4859 /* NgKeyboardTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6591F6D1ED860F7002F4859 /* NgKeyboardTracker */ = {
+			isa = PBXGroup;
+			children = (
+				DCEDECE01B46D90300C5CB27 /* NgPseudoInputAccessoryViewCoordinator.h */,
+				DCEDECE11B46D90300C5CB27 /* NgPseudoInputAccessoryViewCoordinator.m */,
+				DCEDECE31B46D9DA00C5CB27 /* NgPseudoInputAccessoryViewCoordinatorPrivates.h */,
+				DC2EF7511B40E69C0068858F /* NgKeyboardTracker.m */,
+				A6591F6E1ED860F7002F4859 /* NgKeyboardTracker.h */,
+				A6591F6F1ED860F7002F4859 /* Info.plist */,
+			);
+			path = NgKeyboardTracker;
+			sourceTree = "<group>";
+		};
 		DC2EF7431B40E69C0068858F = {
 			isa = PBXGroup;
 			children = (
 				DCEDECE41B46E52500C5CB27 /* Default-568h@2x.png */,
-				DC2EF74E1B40E69C0068858F /* NgKeyboardTracker */,
 				DC2EF76C1B40E6CF0068858F /* NgKeyboardTrackerDemo */,
+				A6591F6D1ED860F7002F4859 /* NgKeyboardTracker */,
 				DC2EF74D1B40E69C0068858F /* Products */,
 				DCE2F55B1B49839F0015DF98 /* NgKeyboardTracker.podspec */,
 				DCE2F55C1B49839F0015DF98 /* LICENSE */,
@@ -97,22 +115,10 @@
 		DC2EF74D1B40E69C0068858F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC2EF74C1B40E69C0068858F /* libNgKeyboardTracker.a */,
 				DC2EF76B1B40E6CF0068858F /* NgKeyboardTrackerDemo.app */,
+				A6591F6C1ED860F7002F4859 /* NgKeyboardTracker.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		DC2EF74E1B40E69C0068858F /* NgKeyboardTracker */ = {
-			isa = PBXGroup;
-			children = (
-				DCEDECE01B46D90300C5CB27 /* NgPseudoInputAccessoryViewCoordinator.h */,
-				DCEDECE11B46D90300C5CB27 /* NgPseudoInputAccessoryViewCoordinator.m */,
-				DCEDECE31B46D9DA00C5CB27 /* NgPseudoInputAccessoryViewCoordinatorPrivates.h */,
-				DC2EF74F1B40E69C0068858F /* NgKeyboardTracker.h */,
-				DC2EF7511B40E69C0068858F /* NgKeyboardTracker.m */,
-			);
-			path = NgKeyboardTracker;
 			sourceTree = "<group>";
 		};
 		DC2EF76C1B40E6CF0068858F /* NgKeyboardTrackerDemo */ = {
@@ -139,14 +145,28 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		A6591F691ED860F7002F4859 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6591F7B1ED86148002F4859 /* NgPseudoInputAccessoryViewCoordinator.h in Headers */,
+				A6591F701ED860F7002F4859 /* NgKeyboardTracker.h in Headers */,
+				A6591F791ED86141002F4859 /* NgPseudoInputAccessoryViewCoordinatorPrivates.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		DC2EF74B1B40E69C0068858F /* NgKeyboardTracker */ = {
+		A6591F6B1ED860F7002F4859 /* NgKeyboardTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC2EF7601B40E69C0068858F /* Build configuration list for PBXNativeTarget "NgKeyboardTracker" */;
+			buildConfigurationList = A6591F751ED860F7002F4859 /* Build configuration list for PBXNativeTarget "NgKeyboardTracker" */;
 			buildPhases = (
-				DC2EF7481B40E69C0068858F /* Sources */,
-				DC2EF7491B40E69C0068858F /* Frameworks */,
-				DC2EF74A1B40E69C0068858F /* CopyFiles */,
+				A6591F671ED860F7002F4859 /* Sources */,
+				A6591F681ED860F7002F4859 /* Frameworks */,
+				A6591F691ED860F7002F4859 /* Headers */,
+				A6591F6A1ED860F7002F4859 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -154,8 +174,8 @@
 			);
 			name = NgKeyboardTracker;
 			productName = NgKeyboardTracker;
-			productReference = DC2EF74C1B40E69C0068858F /* libNgKeyboardTracker.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = A6591F6C1ED860F7002F4859 /* NgKeyboardTracker.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		DC2EF76A1B40E6CF0068858F /* NgKeyboardTrackerDemo */ = {
 			isa = PBXNativeTarget;
@@ -164,11 +184,12 @@
 				DC2EF7671B40E6CF0068858F /* Sources */,
 				DC2EF7681B40E6CF0068858F /* Frameworks */,
 				DC2EF7691B40E6CF0068858F /* Resources */,
+				A6591F561ED85BE3002F4859 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DCE2F5591B4977FE0015DF98 /* PBXTargetDependency */,
+				A6591F721ED860F7002F4859 /* PBXTargetDependency */,
 			);
 			name = NgKeyboardTrackerDemo;
 			productName = NgKeyboardTrackerDemo;
@@ -181,11 +202,13 @@
 		DC2EF7441B40E69C0068858F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = BlockThirty;
 				TargetAttributes = {
-					DC2EF74B1B40E69C0068858F = {
-						CreatedOnToolsVersion = 6.3.2;
+					A6591F6B1ED860F7002F4859 = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
 					};
 					DC2EF76A1B40E6CF0068858F = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -205,13 +228,20 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DC2EF74B1B40E69C0068858F /* NgKeyboardTracker */,
 				DC2EF76A1B40E6CF0068858F /* NgKeyboardTrackerDemo */,
+				A6591F6B1ED860F7002F4859 /* NgKeyboardTracker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A6591F6A1ED860F7002F4859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DC2EF7691B40E6CF0068858F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -224,12 +254,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DC2EF7481B40E69C0068858F /* Sources */ = {
+		A6591F671ED860F7002F4859 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCEDECE21B46D90300C5CB27 /* NgPseudoInputAccessoryViewCoordinator.m in Sources */,
-				DC2EF7521B40E69C0068858F /* NgKeyboardTracker.m in Sources */,
+				A6591F7A1ED86144002F4859 /* NgPseudoInputAccessoryViewCoordinator.m in Sources */,
+				A6591F781ED8613C002F4859 /* NgKeyboardTracker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,14 +276,77 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DCE2F5591B4977FE0015DF98 /* PBXTargetDependency */ = {
+		A6591F721ED860F7002F4859 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DC2EF74B1B40E69C0068858F /* NgKeyboardTracker */;
-			targetProxy = DCE2F5581B4977FE0015DF98 /* PBXContainerItemProxy */;
+			target = A6591F6B1ED860F7002F4859 /* NgKeyboardTracker */;
+			targetProxy = A6591F711ED860F7002F4859 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		A6591F761ED860F7002F4859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = NgKeyboardTracker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcorei.NgKeyboardTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6591F771ED860F7002F4859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NgKeyboardTracker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcorei.NgKeyboardTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		DC2EF75E1B40E69C0068858F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -267,13 +360,16 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -309,8 +405,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -332,35 +430,19 @@
 			};
 			name = Release;
 		};
-		DC2EF7611B40E69C0068858F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		DC2EF7621B40E69C0068858F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		DC2EF78C1B40E6CF0068858F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = NgKeyboardTrackerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcorei.NgKeyboardTrackerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -371,8 +453,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NgKeyboardTrackerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcorei.NgKeyboardTrackerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -381,20 +465,19 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A6591F751ED860F7002F4859 /* Build configuration list for PBXNativeTarget "NgKeyboardTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6591F761ED860F7002F4859 /* Debug */,
+				A6591F771ED860F7002F4859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		DC2EF7471B40E69C0068858F /* Build configuration list for PBXProject "NgKeyboardTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DC2EF75E1B40E69C0068858F /* Debug */,
 				DC2EF75F1B40E69C0068858F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DC2EF7601B40E69C0068858F /* Build configuration list for PBXNativeTarget "NgKeyboardTracker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DC2EF7611B40E69C0068858F /* Debug */,
-				DC2EF7621B40E69C0068858F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
