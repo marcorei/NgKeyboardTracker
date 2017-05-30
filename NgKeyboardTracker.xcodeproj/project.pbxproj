@@ -472,6 +472,7 @@
 				A6591F771ED860F7002F4859 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC2EF7471B40E69C0068858F /* Build configuration list for PBXProject "NgKeyboardTracker" */ = {
 			isa = XCConfigurationList;
